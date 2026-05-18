@@ -1,4 +1,42 @@
-*.cfg
-/cache/
-/resources/\[local\]/
-/db/
+# Runtime cache
+cache/
+txData/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+
+# Rider / IntelliJ local files
+.idea/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node modules
+node_modules/
+
+# Lua temporary files
+*.luac
+
+# Build / distribution
+dist/
+build/
+artifacts/
+
+# Archives generated locally
+*.7z
+*.rar
